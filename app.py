@@ -15,5 +15,5 @@ def suma():
     b = int(request.args.get("b", 0))
     return jsonify(result=add(a, b))
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=3000)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=3040)
